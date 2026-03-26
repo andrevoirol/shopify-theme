@@ -4379,3 +4379,31 @@ textarea:focus {
   box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.15), inset 0 1px 4px rgba(42, 157, 143, 0.08);
   outline: none;
 }
+
+/* ============================================================
+   Featured Product Section — Hero Product on Homepage
+   ============================================================ */
+
+/* Ensure equal-height columns on desktop */
+[id*="__section_featured_product"] .product-information {
+  align-items: stretch;
+}
+
+/* Trust badges row: equal-width columns on mobile too */
+[id*="__section_featured_product"] .fp_trust_badges-block > .group-block-content {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 8px !important;
+}
+
+@media screen and (max-width: 749px) {
+  [id*="__section_featured_product"] .fp_trust_badges-block > .group-block-content {
+    gap: 6px !important;
+  }
+}
+
+/* Secondary content block: teal heading emphasis */
+[id*="__section_featured_product"] .fp_secondary-block .fp_sec_heading-block p {
+  color: var(--color-primary) !important;
+  font-weight: 700;
+}
