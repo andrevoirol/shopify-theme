@@ -4208,3 +4208,91 @@ product-recommendations:has([data-has-recommendations='false']) {
     translate: 0px var(--atc-destination, 0px);
   }
 }
+
+/* ============================================
+   BABY PILLOW SHOP — PASTEL TEAL GLASS THEME
+   ============================================ */
+
+/* Gradient page background */
+html {
+  background: linear-gradient(145deg, #c8ece8 0%, #e0f5f2 45%, #d0eeea 100%);
+  background-attachment: fixed;
+}
+
+body {
+  background: transparent !important;
+}
+
+/* Glass effect on all buttons */
+.button,
+.button-secondary,
+button.shopify-payment-button__button--unbranded {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow:
+    inset 0 0 0 var(--button-border-width, 0px) var(--button-border-color, transparent),
+    0 2px 12px rgba(42, 157, 143, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  transition:
+    color var(--animation-speed) var(--animation-easing),
+    box-shadow var(--animation-speed) var(--animation-easing),
+    background-color var(--animation-speed) var(--animation-easing);
+}
+
+.button:hover,
+button.shopify-payment-button__button--unbranded:hover:not([disabled]) {
+  box-shadow:
+    inset 0 0 0 var(--button-border-width, 0px) var(--button-border-color, transparent),
+    0 6px 22px rgba(42, 157, 143, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+.button-secondary:hover {
+  box-shadow:
+    inset 0 0 0 var(--button-border-width, 0px) var(--button-border-color, transparent),
+    0 6px 22px rgba(42, 157, 143, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+/* Glass effect on product cards */
+.product-card {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.45) !important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  box-shadow: 0 4px 20px rgba(42, 157, 143, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 32px rgba(42, 157, 143, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Glass effect on header */
+.header {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background-color: rgba(224, 245, 242, 0.75) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 20px rgba(42, 157, 143, 0.1);
+}
+
+/* Glass effect on input fields */
+input:not([type='checkbox'], [type='radio']),
+textarea,
+select {
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(42, 157, 143, 0.3) !important;
+  box-shadow: inset 0 1px 4px rgba(42, 157, 143, 0.08);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+input:not([type='checkbox'], [type='radio']):focus,
+textarea:focus {
+  border-color: rgba(42, 157, 143, 0.65) !important;
+  box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.15), inset 0 1px 4px rgba(42, 157, 143, 0.08);
+  outline: none;
+}
