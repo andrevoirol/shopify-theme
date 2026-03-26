@@ -613,209 +613,228 @@
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
             "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
             "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 0,
+            "padding-block-start": 0, "padding-block-end": 32,
             "padding-inline-start": 0, "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "hiw_step_1": {
+        "hiw_steps_row": {
           "type": "group",
           "blocks": {
-            "s1_num": {
-              "type": "text",
+            "hiw_step_1": {
+              "type": "group",
+              "blocks": {
+                "s1_num": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>01</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h1", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 0, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s1_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Slip It On</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h4", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s1_desc": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Put the pillow on your baby in seconds. Adjustable straps fit all sizes from 6 months to 3 years.</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "paragraph", "font": "var(--font-body--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                }
+              },
+              "block_order": ["s1_num", "s1_title", "s1_desc"],
               "settings": {
-                "text": "<p>01</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h1", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 0, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
+                "content_direction": "column", "vertical_on_mobile": true,
+                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 0, "width": "fill", "custom_width": 100,
+                "width_mobile": "fill", "custom_width_mobile": 100,
+                "height": "fit", "custom_height": 100,
+                "inherit_color_scheme": false, "color_scheme": "scheme-2",
+                "background_media": "none", "video_position": "cover",
+                "background_image_position": "cover", "border": "none",
+                "border_width": 1, "border_opacity": 100, "border_radius": 16,
+                "padding-block-start": 40, "padding-block-end": 40,
+                "padding-inline-start": 28, "padding-inline-end": 28
               }
             },
-            "s1_title": {
-              "type": "text",
+            "hiw_step_2": {
+              "type": "group",
+              "blocks": {
+                "s2_num": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>02</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h1", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 0, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s2_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Let Them Explore</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h4", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s2_desc": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Your baby crawls, climbs and takes those wobbly first steps with full confidence and zero fear.</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "paragraph", "font": "var(--font-body--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                }
+              },
+              "block_order": ["s2_num", "s2_title", "s2_desc"],
               "settings": {
-                "text": "<p>Slip It On</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h4", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
+                "content_direction": "column", "vertical_on_mobile": true,
+                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 0, "width": "fill", "custom_width": 100,
+                "width_mobile": "fill", "custom_width_mobile": 100,
+                "height": "fit", "custom_height": 100,
+                "inherit_color_scheme": false, "color_scheme": "scheme-2",
+                "background_media": "none", "video_position": "cover",
+                "background_image_position": "cover", "border": "none",
+                "border_width": 1, "border_opacity": 100, "border_radius": 16,
+                "padding-block-start": 40, "padding-block-end": 40,
+                "padding-inline-start": 28, "padding-inline-end": 28
               }
             },
-            "s1_desc": {
-              "type": "text",
+            "hiw_step_3": {
+              "type": "group",
+              "blocks": {
+                "s3_num": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>03</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h1", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 0, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s3_title": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>You Relax</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "h4", "font": "var(--font-heading--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                },
+                "s3_desc": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Peace of mind knowing every fall is cushioned. No more anxiety — just pure joy watching them grow.</p>",
+                    "width": "100%", "max_width": "normal", "alignment": "center",
+                    "type_preset": "paragraph", "font": "var(--font-body--family)",
+                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                    "background": false, "background_color": "#00000026", "corner_radius": 0,
+                    "padding-block-start": 8, "padding-block-end": 0,
+                    "padding-inline-start": 0, "padding-inline-end": 0
+                  }
+                }
+              },
+              "block_order": ["s3_num", "s3_title", "s3_desc"],
               "settings": {
-                "text": "<p>Put the pillow on your baby in seconds. Adjustable straps fit all sizes from 6 months to 3 years.</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "paragraph", "font": "var(--font-body--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
+                "content_direction": "column", "vertical_on_mobile": true,
+                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 0, "width": "fill", "custom_width": 100,
+                "width_mobile": "fill", "custom_width_mobile": 100,
+                "height": "fit", "custom_height": 100,
+                "inherit_color_scheme": false, "color_scheme": "scheme-2",
+                "background_media": "none", "video_position": "cover",
+                "background_image_position": "cover", "border": "none",
+                "border_width": 1, "border_opacity": 100, "border_radius": 16,
+                "padding-block-start": 40, "padding-block-end": 40,
+                "padding-inline-start": 28, "padding-inline-end": 28
               }
             }
           },
-          "block_order": ["s1_num", "s1_title", "s1_desc"],
+          "block_order": ["hiw_step_1", "hiw_step_2", "hiw_step_3"],
           "settings": {
-            "content_direction": "column", "vertical_on_mobile": true,
-            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+            "content_direction": "row", "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between", "vertical_alignment": "flex-start",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0, "width": "fill", "custom_width": 100,
+            "gap": 24, "width": "fill", "custom_width": 100,
             "width_mobile": "fill", "custom_width_mobile": 100,
             "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": false, "color_scheme": "scheme-2",
+            "inherit_color_scheme": true, "color_scheme": "scheme-3",
             "background_media": "none", "video_position": "cover",
             "background_image_position": "cover", "border": "none",
-            "border_width": 1, "border_opacity": 100, "border_radius": 16,
-            "padding-block-start": 40, "padding-block-end": 40,
-            "padding-inline-start": 28, "padding-inline-end": 28
-          }
-        },
-        "hiw_step_2": {
-          "type": "group",
-          "blocks": {
-            "s2_num": {
-              "type": "text",
-              "settings": {
-                "text": "<p>02</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h1", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 0, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            },
-            "s2_title": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Let Them Explore</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h4", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            },
-            "s2_desc": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Your baby crawls, climbs and takes those wobbly first steps with full confidence and zero fear.</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "paragraph", "font": "var(--font-body--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            }
-          },
-          "block_order": ["s2_num", "s2_title", "s2_desc"],
-          "settings": {
-            "content_direction": "column", "vertical_on_mobile": true,
-            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0, "width": "fill", "custom_width": 100,
-            "width_mobile": "fill", "custom_width_mobile": 100,
-            "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": false, "color_scheme": "scheme-2",
-            "background_media": "none", "video_position": "cover",
-            "background_image_position": "cover", "border": "none",
-            "border_width": 1, "border_opacity": 100, "border_radius": 16,
-            "padding-block-start": 40, "padding-block-end": 40,
-            "padding-inline-start": 28, "padding-inline-end": 28
-          }
-        },
-        "hiw_step_3": {
-          "type": "group",
-          "blocks": {
-            "s3_num": {
-              "type": "text",
-              "settings": {
-                "text": "<p>03</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h1", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 0, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            },
-            "s3_title": {
-              "type": "text",
-              "settings": {
-                "text": "<p>You Relax</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h4", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            },
-            "s3_desc": {
-              "type": "text",
-              "settings": {
-                "text": "<p>Peace of mind knowing every fall is cushioned. No more anxiety — just pure joy watching them grow.</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "paragraph", "font": "var(--font-body--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 8, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
-              }
-            }
-          },
-          "block_order": ["s3_num", "s3_title", "s3_desc"],
-          "settings": {
-            "content_direction": "column", "vertical_on_mobile": true,
-            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 0, "width": "fill", "custom_width": 100,
-            "width_mobile": "fill", "custom_width_mobile": 100,
-            "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": false, "color_scheme": "scheme-2",
-            "background_media": "none", "video_position": "cover",
-            "background_image_position": "cover", "border": "none",
-            "border_width": 1, "border_opacity": 100, "border_radius": 16,
-            "padding-block-start": 40, "padding-block-end": 40,
-            "padding-inline-start": 28, "padding-inline-end": 28
+            "border_width": 0, "border_opacity": 0, "border_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 0,
+            "padding-inline-start": 0, "padding-inline-end": 0
           }
         }
       },
-      "block_order": [
-        "hiw_label", "hiw_title",
-        "hiw_step_1", "hiw_step_2", "hiw_step_3"
-      ],
+      "block_order": ["hiw_label", "hiw_title", "hiw_steps_row"],
       "name": "How It Works",
       "settings": {
-        "content_direction": "row",
+        "content_direction": "column",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "space-between",
+        "horizontal_alignment": "flex-start",
         "vertical_alignment": "flex-start",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "flex-start",
-        "gap": 24,
+        "gap": 0,
         "section_width": "page-width",
         "section_height": "fit",
         "section_height_custom": 50,
