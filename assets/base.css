@@ -3852,6 +3852,11 @@ fly-to-cart.fly-to-cart--sticky {
   width: 100%;
 }
 
+/* Explicitly center text inside column-direction group cards with center alignment */
+.group-block-content.layout-panel-flex--column[style*='--horizontal-alignment: center'] .text-block > * {
+  text-align: center;
+}
+
 text-component {
   --shimmer-text-color: rgb(var(--color-foreground-rgb) / var(--opacity-50));
   --shimmer-color-light: rgb(var(--color-foreground-rgb) / var(--opacity-10));
