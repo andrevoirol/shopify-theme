@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Protect What Matters Most</p>",
+            "text": "<p>She Wobbled. And Your Heart Stopped.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -42,7 +42,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>The soft back-protection pillow that keeps your little one safe every step of the way.</p>",
+            "text": "<p>The soft back-protection pillow that catches every fall so you can finally breathe again.</p>",
             "width": "fit-content",
             "max_width": "medium",
             "alignment": "left",
@@ -68,7 +68,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop Now",
+            "label": "Protect My Baby",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
@@ -760,7 +760,7 @@
                 "fp_sec_heading": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Safe. Soft. Certified.</p>",
+                    "text": "<p>Built to Take Every Tumble.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -785,7 +785,7 @@
                 "fp_sec_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Triple-layer memory foam. Machine washable. Loved by 10,000+ families worldwide.</p>",
+                    "text": "<p>Triple-layer memory foam. Fits 6 months to 3 years. Loved by over 10,000 families worldwide.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -841,7 +841,7 @@
         "sec_title": {
           "type": "text",
           "settings": {
-            "text": "<h2>Why Parents Love BabyShield</h2>",
+            "text": "<h2>Built for the Moments That Make Your Heart Race</h2>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -866,7 +866,7 @@
         "sec_subtitle": {
           "type": "text",
           "settings": {
-            "text": "<p>Designed with love, engineered for safety. Every detail exists to protect your baby.</p>",
+            "text": "<p>Every detail was designed with one thing in mind. Your baby falling safely, and you feeling it.</p>",
             "width": "100%",
             "max_width": "medium",
             "alignment": "center",
@@ -901,7 +901,7 @@
                 "b1_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ultra-Soft Padding</p>",
+                    "text": "<p>Absorbs Every Impact</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h5", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -913,7 +913,7 @@
                 "b1_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Triple-layer memory foam absorbs the impact of every tumble, big or small.</p>",
+                    "text": "<p>Triple-layer memory foam wraps around your baby's back. A tumble becomes a soft landing. Every single time.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -951,7 +951,7 @@
                 "b2_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Safety Certified</p>",
+                    "text": "<p>Certified Safe</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h5", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -963,7 +963,7 @@
                 "b2_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Meets the highest international baby safety standards. Tested, trusted, approved.</p>",
+                    "text": "<p>Rigorously tested to international baby safety standards. When it comes to your baby, there's no guessing.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1001,7 +1001,7 @@
                 "b3_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Machine Washable</p>",
+                    "text": "<p>Toss It in the Wash</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h5", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1013,7 +1013,7 @@
                 "b3_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Toss it in the wash. Stays perfectly soft, clean and ready for another adventure.</p>",
+                    "text": "<p>One gentle cycle and it comes out perfectly soft. No shrinking, no damage. Ready for whatever tomorrow brings.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1051,7 +1051,7 @@
                 "b4_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Free Fast Shipping</p>",
+                    "text": "<p>Ships Free, Everywhere</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h5", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1063,7 +1063,7 @@
                 "b4_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Free worldwide shipping on every single order. Your baby's safety shouldn't wait.</p>",
+                    "text": "<p>Free worldwide shipping on every order. Because protecting your baby shouldn't come with a delivery fee.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1142,7 +1142,7 @@
         "hiw_label": {
           "type": "text",
           "settings": {
-            "text": "<p>How It Works</p>",
+            "text": "<p>Takes 30 Seconds</p>",
             "width": "100%", "max_width": "normal", "alignment": "center",
             "type_preset": "h6", "font": "var(--font-body--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1156,7 +1156,7 @@
         "hiw_title": {
           "type": "text",
           "settings": {
-            "text": "<h2>Safe in 3 Simple Steps</h2>",
+            "text": "<h2>On in the Morning. Off at Bedtime. That Easy.</h2>",
             "width": "100%", "max_width": "normal", "alignment": "center",
             "type_preset": "h2", "font": "var(--font-heading--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1202,7 +1202,7 @@
                 "s1_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Put the pillow on your baby in seconds. Adjustable straps fit all sizes from 6 months to 3 years.</p>",
+                    "text": "<p>Adjustable straps fit any baby from 6 months to 3 years. Two clicks and it's snug. That's it.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1250,7 +1250,7 @@
                 "s2_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Let Them Explore</p>",
+                    "text": "<p>Watch Them Explore</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h4", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1263,7 +1263,7 @@
                 "s2_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Your baby crawls, climbs and takes those wobbly first steps with full confidence and zero fear.</p>",
+                    "text": "<p>Your baby crawls, pulls up, takes those wobbly first steps. You watch. You smile. You don't flinch.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1311,7 +1311,7 @@
                 "s3_title": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>You Relax</p>",
+                    "text": "<p>You Breathe Again</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "h4", "font": "var(--font-heading--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1324,7 +1324,7 @@
                 "s3_desc": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Peace of mind knowing every fall is cushioned. No more anxiety — just pure joy watching them grow.</p>",
+                    "text": "<p>Every fall is caught. Every tumble lands soft. That knot in your chest finally starts to loosen.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "center",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1409,7 +1409,7 @@
             "reviews_label": {
               "type": "text",
               "settings": {
-                "text": "<p>Real Parents, Real Results</p>",
+                "text": "<p>What Moms Are Saying</p>",
                 "width": "100%", "max_width": "normal", "alignment": "center",
                 "type_preset": "h6", "font": "var(--font-body--family)",
                 "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1423,7 +1423,7 @@
             "reviews_title": {
               "type": "text",
               "settings": {
-                "text": "<h2>Loved by 10,000+ Families</h2>",
+                "text": "<h2>10,000+ Families Sleep Better Tonight</h2>",
                 "width": "100%", "max_width": "normal", "alignment": "center",
                 "type_preset": "h2", "font": "var(--font-heading--family)",
                 "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1478,7 +1478,7 @@
                 "r1_quote": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>\"My son took his first steps in this pillow and tumbled 5 times — not a single tear. It's absolutely incredible. Every parent needs this.\"</p>",
+                    "text": "<p>\"Liam fell backward five times in one afternoon. Not one cry. I stood there with my mouth open. This thing actually works.\"</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1544,7 +1544,7 @@
                 "r2_quote": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>\"I was terrified watching my daughter take her first wobbly steps. This pillow gave us both so much confidence. She actually laughs when she falls now!\"</p>",
+                    "text": "<p>\"I'd been hovering behind Zoe for weeks, terrified to look away. The day I put this on her, I sat down on the couch for the first time. I actually sat down.\"</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1610,7 +1610,7 @@
                 "r3_quote": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>\"We bought 3 of these — one for home, one for grandma's, one for daycare. The quality is outstanding and it washes perfectly every time.\"</p>",
+                    "text": "<p>\"We bought three. Home, grandma's, daycare. The quality held up through months of washing. My twins are obsessed with putting it on themselves now.\"</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1730,7 +1730,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>Shop BabyShield</h3>",
+                "text": "<h3>Choose Your BabyShield</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1862,7 +1862,7 @@
           ]
         }
       },
-      "name": "Shop BabyShield",
+      "name": "Choose Your BabyShield",
       "settings": {
         "collection": "all",
         "layout_type": "grid",
@@ -1890,7 +1890,7 @@
         "faq_label": {
           "type": "text",
           "settings": {
-            "text": "<p>Got Questions?</p>",
+            "text": "<p>You Have Questions</p>",
             "width": "100%", "max_width": "normal", "alignment": "center",
             "type_preset": "h6", "font": "var(--font-body--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1904,7 +1904,7 @@
         "faq_title": {
           "type": "text",
           "settings": {
-            "text": "<h2>Frequently Asked Questions</h2>",
+            "text": "<h2>We Have Honest Answers</h2>",
             "width": "100%", "max_width": "normal", "alignment": "center",
             "type_preset": "h2", "font": "var(--font-heading--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1924,7 +1924,7 @@
                 "faq_a1": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>BabyShield is designed for babies aged 6 months to 3 years — the crawling and early walking stages. The adjustable straps ensure a comfortable, secure fit as your baby grows.</p>",
+                    "text": "<p>BabyShield fits babies aged 6 months to 3 years. The adjustable straps grow with your baby through crawling, standing, and those first wobbly steps.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1938,7 +1938,7 @@
               },
               "block_order": ["faq_a1"],
               "settings": {
-                "heading": "What age is BabyShield suitable for?",
+                "heading": "What age does BabyShield fit?",
                 "open_by_default": true,
                 "icon": "none",
                 "width": 24
@@ -1950,7 +1950,7 @@
                 "faq_a2": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>BabyShield is designed for active daytime use — crawling, walking, and play. We recommend removing it during nap time and sleep for your baby's comfort.</p>",
+                    "text": "<p>BabyShield is designed for active play and learning to walk. We recommend removing it at sleep time so your baby is comfortable and unrestricted. It takes about two seconds to take off.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1976,7 +1976,7 @@
                 "faq_a3": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Simply unzip and remove the inner cushion, then machine wash the cover on a gentle cycle at 30°C. The inner foam air-dries quickly. Your pillow will come out just as soft and fresh as new.</p>",
+                    "text": "<p>Unzip the cover, pop it in the washing machine on a gentle cycle at 30°C, and air-dry the foam insert. It comes out just as soft every time. No special care needed.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -1990,7 +1990,7 @@
               },
               "block_order": ["faq_a3"],
               "settings": {
-                "heading": "How do I wash it?",
+                "heading": "How do I clean it?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 24
@@ -2002,7 +2002,7 @@
                 "faq_a4": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Orders are processed and shipped within 24 hours. Standard delivery takes 5–10 business days. Express shipping options are available at checkout for faster delivery.</p>",
+                    "text": "<p>We ship within 24 hours of your order. Standard delivery arrives in 5 to 10 business days. Express options are available at checkout if you want it sooner.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -2016,7 +2016,7 @@
               },
               "block_order": ["faq_a4"],
               "settings": {
-                "heading": "How long does shipping take?",
+                "heading": "When will it arrive?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 24
@@ -2028,7 +2028,7 @@
                 "faq_a5": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We offer a full 30-day money-back guarantee. If for any reason you or your baby aren't happy, contact us and we'll refund you completely — no questions asked. Your trust means everything to us.</p>",
+                    "text": "<p>Then we refund you. All of it. No forms, no return label stress, no questions. You have 30 days to try it with your baby. If it's not right, just message us.</p>",
                     "width": "100%", "max_width": "normal", "alignment": "left",
                     "type_preset": "paragraph", "font": "var(--font-body--family)",
                     "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -2042,7 +2042,7 @@
               },
               "block_order": ["faq_a5"],
               "settings": {
-                "heading": "What if I'm not satisfied?",
+                "heading": "What if it doesn't work for us?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 24
@@ -2102,7 +2102,7 @@
         "gtee_title": {
           "type": "text",
           "settings": {
-            "text": "<h2>30-Day Risk-Free Guarantee</h2>",
+            "text": "<h2>Try It. Love It. Or We Pay You Back.</h2>",
             "width": "100%", "max_width": "normal", "alignment": "center",
             "type_preset": "h2", "font": "var(--font-heading--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -2116,7 +2116,7 @@
         "gtee_text": {
           "type": "text",
           "settings": {
-            "text": "<p>We're so confident your baby will love BabyShield that we offer a 100% money-back guarantee. Try it for 30 days. If you're not completely satisfied — for any reason — we'll refund every penny. No paperwork, no hassle, no questions asked.</p>",
+            "text": "<p>We believe in BabyShield completely. So try it for 30 days. Put it on your baby. See what happens at playtime. If for any reason it's not for you, message us and we'll refund every penny. No conditions. No lectures. No hassle.</p>",
             "width": "100%", "max_width": "medium", "alignment": "center",
             "type_preset": "paragraph", "font": "var(--font-body--family)",
             "font_size": "", "line_height": "normal", "letter_spacing": "normal",
@@ -2130,7 +2130,7 @@
         "gtee_button": {
           "type": "button",
           "settings": {
-            "label": "Get Yours Today — Risk Free",
+            "label": "Get BabyShield Risk-Free",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",

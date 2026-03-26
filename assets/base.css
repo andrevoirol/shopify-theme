@@ -4407,3 +4407,77 @@ textarea:focus {
   color: var(--color-primary) !important;
   font-weight: 700;
 }
+
+/* ============================================================
+   Soft UI Evolution — Smooth global interactions
+   ============================================================ */
+
+/* Smooth page scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global transition for interactive elements */
+a,
+button,
+.button,
+[class*="button"],
+[class*="btn"] {
+  transition: opacity 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Lift effect on primary buttons */
+.button:not(.button--secondary):not(.button--link):hover,
+[class*="button--primary"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(42, 157, 143, 0.28);
+}
+
+/* Soft card hover lift */
+.group-block,
+[class*="-card"],
+[class*="card-"] {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.group-block:hover,
+[class*="-card"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
+}
+
+/* Section subtle depth separator */
+.section-wrapper + .section-wrapper {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04);
+}
+
+/* Accordion smooth fade-in on open */
+details[open] summary ~ * {
+  animation: fadeSlideIn 0.22s ease forwards;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Review cards: teal border glow on hover */
+[class*="carousel"] ._card:hover {
+  border-color: rgba(42, 157, 143, 0.25) !important;
+  box-shadow: 0 6px 24px rgba(42, 157, 143, 0.1) !important;
+}
+
+/* Product image: smooth zoom on hover */
+[class*="product-card"] img {
+  transition: transform 0.35s ease;
+}
+
+[class*="product-card"]:hover img {
+  transform: scale(1.03);
+}
