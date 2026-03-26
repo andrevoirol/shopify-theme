@@ -3847,6 +3847,11 @@ fly-to-cart.fly-to-cart--sticky {
   flex-basis: var(--size-style-height);
 }
 
+/* Width fill for column parents: span the full container width */
+.layout-panel-flex--column > .group-block--width-fill {
+  width: 100%;
+}
+
 text-component {
   --shimmer-text-color: rgb(var(--color-foreground-rgb) / var(--opacity-50));
   --shimmer-color-light: rgb(var(--color-foreground-rgb) / var(--opacity-10));
