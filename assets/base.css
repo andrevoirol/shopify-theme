@@ -3852,93 +3852,81 @@ fly-to-cart.fly-to-cart--sticky {
   width: 100%;
 }
 
-/* =====================================================
-   How It Works + Benefits — definitive layout overrides
-   ===================================================== */
+/* =============================================================
+   How It Works (3 cards) + Benefits (4 cards) — CSS Grid fix
+   The live HTML has all blocks as direct row siblings inside
+   section-content-wrapper. Grid converts this to a proper layout:
+   title/subtitle span full width, cards fill equal columns.
+   Selector [id*="__section_*"] matches the actual Shopify IDs
+   (e.g. shopify-section-template--XXXXX__section_benefits).
+   ============================================================= */
 
-/* 1. Outer column container: full width, centered */
-#shopify-section-section_how_it_works .section-content-wrapper,
-#shopify-section-section_benefits .section-content-wrapper {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
+/* Benefits desktop: 4-column grid */
+[id*="__section_benefits"] .section-content-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 24px !important;
+  align-items: start !important;
 }
 
-/* 2. Section title/subtitle text blocks: full width */
-#shopify-section-section_how_it_works .section-content-wrapper > .text-block,
-#shopify-section-section_benefits .section-content-wrapper > .text-block {
-  width: 100% !important;
-  max-width: 100% !important;
+/* How It Works desktop: 3-column grid */
+[id*="__section_how_it_works"] .section-content-wrapper {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 32px !important;
+  align-items: start !important;
 }
 
-#shopify-section-section_how_it_works .section-content-wrapper > .text-block > *,
-#shopify-section-section_benefits .section-content-wrapper > .text-block > * {
+/* Title/subtitle: span all columns, centered text */
+[id*="__section_benefits"] .section-content-wrapper > :not(.group-block),
+[id*="__section_how_it_works"] .section-content-wrapper > :not(.group-block) {
+  grid-column: 1 / -1 !important;
+  width: 100% !important;
   text-align: center !important;
 }
 
-/* 3. Card row wrapper group block: full width */
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block,
-#shopify-section-section_benefits .section-content-wrapper > .group-block {
-  width: 100% !important;
-  max-width: 100% !important;
-  box-sizing: border-box !important;
+[id*="__section_benefits"] .section-content-wrapper > :not(.group-block) > *,
+[id*="__section_how_it_works"] .section-content-wrapper > :not(.group-block) > * {
+  text-align: center !important;
 }
 
-/* 4. Card row flex container: row, wrapping, centered */
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content,
-#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  align-items: stretch !important;
+/* Cards: fill their grid cell */
+[id*="__section_benefits"] .section-content-wrapper > .group-block,
+[id*="__section_how_it_works"] .section-content-wrapper > .group-block {
   width: 100% !important;
-  box-sizing: border-box !important;
-}
-
-/* 5. Individual cards: equal flexible width, never overflow */
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block,
-#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block {
-  flex: 1 1 180px !important;
   min-width: 0 !important;
-  max-width: 100% !important;
   box-sizing: border-box !important;
+  background-color: #f5fafa !important;
+  border-radius: 12px !important;
 }
 
-/* 6. Card inner content: centered column */
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block > .group-block-content,
-#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block > .group-block-content {
-  display: flex !important;
-  flex-direction: column !important;
+/* Card inner column: centered with spacing between elements */
+[id*="__section_benefits"] .section-content-wrapper > .group-block > .group-block-content,
+[id*="__section_how_it_works"] .section-content-wrapper > .group-block > .group-block-content {
   align-items: center !important;
-  width: 100% !important;
+  gap: 12px !important;
 }
 
-/* 7. All text inside cards: centered */
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block .text-block,
-#shopify-section-section_benefits .section-content-wrapper > .group-block .text-block {
-  width: 100% !important;
+/* Text inside cards: centered */
+[id*="__section_benefits"] .section-content-wrapper > .group-block .text-block > *,
+[id*="__section_how_it_works"] .section-content-wrapper > .group-block .text-block > * {
   text-align: center !important;
 }
 
-#shopify-section-section_how_it_works .section-content-wrapper > .group-block .text-block > *,
-#shopify-section-section_benefits .section-content-wrapper > .group-block .text-block > * {
-  text-align: center !important;
-  margin-inline: auto !important;
-}
-
-/* 8. Mobile: stack cards in a single column */
+/* Mobile: revert to single-column flex stack */
 @media screen and (max-width: 749px) {
-  #shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content,
-  #shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content {
+  [id*="__section_benefits"] .section-content-wrapper,
+  [id*="__section_how_it_works"] .section-content-wrapper {
+    display: flex !important;
     flex-direction: column !important;
+    align-items: center !important;
+    gap: 16px !important;
   }
 
-  #shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block,
-  #shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block {
-    flex: 1 1 100% !important;
+  [id*="__section_benefits"] .section-content-wrapper > :not(.group-block),
+  [id*="__section_how_it_works"] .section-content-wrapper > :not(.group-block),
+  [id*="__section_benefits"] .section-content-wrapper > .group-block,
+  [id*="__section_how_it_works"] .section-content-wrapper > .group-block {
     width: 100% !important;
   }
 }
