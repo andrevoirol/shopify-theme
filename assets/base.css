@@ -3931,6 +3931,15 @@ fly-to-cart.fly-to-cart--sticky {
   }
 }
 
+/* ============================================================
+   Universal: equal-width children in ALL row-direction groups
+   Prevents clustering in any section — current and future.
+   ============================================================ */
+.group-block > .group-block-content > .group-block {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+}
+
 text-component {
   --shimmer-text-color: rgb(var(--color-foreground-rgb) / var(--opacity-50));
   --shimmer-color-light: rgb(var(--color-foreground-rgb) / var(--opacity-10));
