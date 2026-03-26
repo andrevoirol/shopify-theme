@@ -871,28 +871,31 @@
     "section_benefits": {
       "type": "section",
       "blocks": {
+        "sec_label": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Why It Works</p>",
+            "width": "100%", "max_width": "normal", "alignment": "center",
+            "type_preset": "h6", "font": "var(--font-body--family)",
+            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+            "case": "uppercase", "wrap": "pretty", "color": "var(--color-primary)",
+            "background": false, "background_color": "#00000026", "corner_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 4,
+            "padding-inline-start": 0, "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "sec_title": {
           "type": "text",
           "settings": {
             "text": "<h2>Built for the Moments That Make Your Heart Race</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 8,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "width": "100%", "max_width": "normal", "alignment": "center",
+            "type_preset": "h2", "font": "var(--font-heading--family)",
+            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+            "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+            "background": false, "background_color": "#00000026", "corner_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 8,
+            "padding-inline-start": 0, "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -900,478 +903,208 @@
           "type": "text",
           "settings": {
             "text": "<p>Every detail was designed with one thing in mind. Your baby falling safely, and you feeling it.</p>",
-            "width": "100%",
-            "max_width": "medium",
-            "alignment": "center",
-            "type_preset": "paragraph",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 32,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "width": "100%", "max_width": "medium", "alignment": "center",
+            "type_preset": "paragraph", "font": "var(--font-body--family)",
+            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+            "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+            "background": false, "background_color": "#00000026", "corner_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 40,
+            "padding-inline-start": 0, "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "benefits_row": {
+        "benefit_group_1": {
           "type": "group",
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 24,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 0,
-            "border_opacity": 0,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
           "blocks": {
-            "benefit_group_1": {
-              "type": "group",
+            "b1_icon": { "type": "icon", "settings": { "icon": "heart", "width": 44, "link": "", "open_in_new_tab": false } },
+            "b1_title": {
+              "type": "text",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-2",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 24,
-                "padding-inline-end": 24
+                "text": "<p>Absorbs Every Impact</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "h5", "font": "var(--font-heading--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
               },
-              "blocks": {
-                "b1_icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "heart",
-                    "width": 44,
-                    "link": "",
-                    "open_in_new_tab": false
-                  }
-                },
-                "b1_title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Absorbs Every Impact</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h5",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 12,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "b1_desc": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Triple-layer memory foam wraps around your baby's back. A tumble becomes a soft landing. Every single time.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 8,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "b1_icon",
-                "b1_title",
-                "b1_desc"
-              ]
+              "blocks": {}
             },
-            "benefit_group_2": {
-              "type": "group",
+            "b1_desc": {
+              "type": "text",
               "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-2",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 24,
-                "padding-inline-end": 24
+                "text": "<p>Triple-layer memory foam wraps around your baby's back. A tumble becomes a soft landing. Every single time.</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "paragraph", "font": "var(--font-body--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
               },
-              "blocks": {
-                "b2_icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "check_box",
-                    "width": 44,
-                    "link": "",
-                    "open_in_new_tab": false
-                  }
-                },
-                "b2_title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Certified Safe</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h5",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 12,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "b2_desc": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Rigorously tested to international baby safety standards. When it comes to your baby, there's no guessing.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 8,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "b2_icon",
-                "b2_title",
-                "b2_desc"
-              ]
-            },
-            "benefit_group_3": {
-              "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-2",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 24,
-                "padding-inline-end": 24
-              },
-              "blocks": {
-                "b3_icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "washing",
-                    "width": 44,
-                    "link": "",
-                    "open_in_new_tab": false
-                  }
-                },
-                "b3_title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Toss It in the Wash</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h5",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 12,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "b3_desc": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>One gentle cycle and it comes out perfectly soft. No shrinking, no damage. Ready for whatever tomorrow brings.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 8,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "b3_icon",
-                "b3_title",
-                "b3_desc"
-              ]
-            },
-            "benefit_group_4": {
-              "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-2",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 12,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 24,
-                "padding-inline-end": 24
-              },
-              "blocks": {
-                "b4_icon": {
-                  "type": "icon",
-                  "settings": {
-                    "icon": "truck",
-                    "width": 44,
-                    "link": "",
-                    "open_in_new_tab": false
-                  }
-                },
-                "b4_title": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Ships Free, Everywhere</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "h5",
-                    "font": "var(--font-heading--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground-heading)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 12,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                },
-                "b4_desc": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Free worldwide shipping on every order. Because protecting your baby shouldn't come with a delivery fee.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "paragraph",
-                    "font": "var(--font-body--family)",
-                    "font_size": "",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 8,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  }
-                }
-              },
-              "block_order": [
-                "b4_icon",
-                "b4_title",
-                "b4_desc"
-              ]
+              "blocks": {}
             }
           },
-          "block_order": [
-            "benefit_group_1",
-            "benefit_group_2",
-            "benefit_group_3",
-            "benefit_group_4"
-          ]
+          "block_order": ["b1_icon", "b1_title", "b1_desc"],
+          "settings": {
+            "content_direction": "column", "vertical_on_mobile": true,
+            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+            "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0, "width": "fill", "custom_width": 100, "width_mobile": "fill", "custom_width_mobile": 100,
+            "height": "fill", "custom_height": 100,
+            "inherit_color_scheme": false, "color_scheme": "scheme-2",
+            "background_media": "none", "video_position": "cover", "background_image_position": "cover",
+            "border": "none", "border_width": 1, "border_opacity": 100, "border_radius": 12,
+            "padding-block-start": 32, "padding-block-end": 32, "padding-inline-start": 24, "padding-inline-end": 24
+          }
+        },
+        "benefit_group_2": {
+          "type": "group",
+          "blocks": {
+            "b2_icon": { "type": "icon", "settings": { "icon": "check_box", "width": 44, "link": "", "open_in_new_tab": false } },
+            "b2_title": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Certified Safe</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "h5", "font": "var(--font-heading--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "b2_desc": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Rigorously tested to international baby safety standards. When it comes to your baby, there's no guessing.</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "paragraph", "font": "var(--font-body--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["b2_icon", "b2_title", "b2_desc"],
+          "settings": {
+            "content_direction": "column", "vertical_on_mobile": true,
+            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+            "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0, "width": "fill", "custom_width": 100, "width_mobile": "fill", "custom_width_mobile": 100,
+            "height": "fill", "custom_height": 100,
+            "inherit_color_scheme": false, "color_scheme": "scheme-2",
+            "background_media": "none", "video_position": "cover", "background_image_position": "cover",
+            "border": "none", "border_width": 1, "border_opacity": 100, "border_radius": 12,
+            "padding-block-start": 32, "padding-block-end": 32, "padding-inline-start": 24, "padding-inline-end": 24
+          }
+        },
+        "benefit_group_3": {
+          "type": "group",
+          "blocks": {
+            "b3_icon": { "type": "icon", "settings": { "icon": "washing", "width": 44, "link": "", "open_in_new_tab": false } },
+            "b3_title": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Toss It in the Wash</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "h5", "font": "var(--font-heading--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "b3_desc": {
+              "type": "text",
+              "settings": {
+                "text": "<p>One gentle cycle and it comes out perfectly soft. No shrinking, no damage. Ready for whatever tomorrow brings.</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "paragraph", "font": "var(--font-body--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["b3_icon", "b3_title", "b3_desc"],
+          "settings": {
+            "content_direction": "column", "vertical_on_mobile": true,
+            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+            "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0, "width": "fill", "custom_width": 100, "width_mobile": "fill", "custom_width_mobile": 100,
+            "height": "fill", "custom_height": 100,
+            "inherit_color_scheme": false, "color_scheme": "scheme-2",
+            "background_media": "none", "video_position": "cover", "background_image_position": "cover",
+            "border": "none", "border_width": 1, "border_opacity": 100, "border_radius": 12,
+            "padding-block-start": 32, "padding-block-end": 32, "padding-inline-start": 24, "padding-inline-end": 24
+          }
+        },
+        "benefit_group_4": {
+          "type": "group",
+          "blocks": {
+            "b4_icon": { "type": "icon", "settings": { "icon": "truck", "width": 44, "link": "", "open_in_new_tab": false } },
+            "b4_title": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Ships Free, Everywhere</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "h5", "font": "var(--font-heading--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "b4_desc": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Free worldwide shipping on every order. Because protecting your baby shouldn't come with a delivery fee.</p>",
+                "width": "100%", "max_width": "normal", "alignment": "center",
+                "type_preset": "paragraph", "font": "var(--font-body--family)",
+                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+                "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
+                "background": false, "background_color": "#00000026", "corner_radius": 0,
+                "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["b4_icon", "b4_title", "b4_desc"],
+          "settings": {
+            "content_direction": "column", "vertical_on_mobile": true,
+            "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+            "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 0, "width": "fill", "custom_width": 100, "width_mobile": "fill", "custom_width_mobile": 100,
+            "height": "fill", "custom_height": 100,
+            "inherit_color_scheme": false, "color_scheme": "scheme-2",
+            "background_media": "none", "video_position": "cover", "background_image_position": "cover",
+            "border": "none", "border_width": 1, "border_opacity": 100, "border_radius": 12,
+            "padding-block-start": 32, "padding-block-end": 32, "padding-inline-start": 24, "padding-inline-end": 24
+          }
         }
       },
-      "block_order": [
-        "sec_title",
-        "sec_subtitle",
-        "benefits_row"
-      ],
+      "block_order": ["sec_label", "sec_title", "sec_subtitle", "benefit_group_1", "benefit_group_2", "benefit_group_3", "benefit_group_4"],
       "name": "Benefits",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
+        "content_direction": "column", "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start", "vertical_alignment": "flex-start",
+        "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "flex-start",
-        "gap": 0,
-        "section_width": "page-width",
-        "section_height": "fit",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-1",
-        "background_media": "none",
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
-        "padding-block-start": 72,
-        "padding-block-end": 72
+        "gap": 0, "section_width": "page-width", "section_height": "fit", "section_height_custom": 50,
+        "color_scheme": "scheme-1", "background_media": "none", "toggle_overlay": false,
+        "overlay_color": "#00000026", "overlay_style": "solid", "gradient_direction": "to bottom",
+        "padding-block-start": 72, "padding-block-end": 72
       }
     },
     "section_how_it_works": {
@@ -1381,24 +1114,13 @@
           "type": "text",
           "settings": {
             "text": "<p>Takes 30 Seconds</p>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h6",
-            "font": "var(--font-body--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "uppercase",
-            "wrap": "pretty",
-            "color": "var(--color-primary)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 4,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "width": "100%", "max_width": "normal", "alignment": "center",
+            "type_preset": "h6", "font": "var(--font-body--family)",
+            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+            "case": "uppercase", "wrap": "pretty", "color": "var(--color-primary)",
+            "background": false, "background_color": "#00000026", "corner_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 4,
+            "padding-inline-start": 0, "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -1406,60 +1128,17 @@
           "type": "text",
           "settings": {
             "text": "<h2>On in the Morning. Off at Bedtime. That Easy.</h2>",
-            "width": "100%",
-            "max_width": "normal",
-            "alignment": "center",
-            "type_preset": "h2",
-            "font": "var(--font-heading--family)",
-            "font_size": "",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground-heading)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 32,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
+            "width": "100%", "max_width": "normal", "alignment": "center",
+            "type_preset": "h2", "font": "var(--font-heading--family)",
+            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
+            "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
+            "background": false, "background_color": "#00000026", "corner_radius": 0,
+            "padding-block-start": 0, "padding-block-end": 40,
+            "padding-inline-start": 0, "padding-inline-end": 0
           },
           "blocks": {}
         },
-        "hiw_steps_row": {
-          "type": "group",
-          "settings": {
-            "content_direction": "row",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "space-between",
-            "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 32,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "scheme-3",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "border": "none",
-            "border_width": 0,
-            "border_opacity": 0,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {
-            "hiw_step_1": {
+        "hiw_step_1": {
               "type": "group",
               "settings": {
                 "content_direction": "column",
@@ -1474,7 +1153,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": false,
                 "color_scheme": "scheme-2",
@@ -1585,7 +1264,7 @@
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
-                "height": "fit",
+                "height": "fill",
                 "custom_height": 100,
                 "inherit_color_scheme": false,
                 "color_scheme": "scheme-2",
@@ -1683,35 +1362,6 @@
             },
             "hiw_step_3": {
               "type": "group",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "center",
-                "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12,
-                "width": "fill",
-                "custom_width": 100,
-                "width_mobile": "fill",
-                "custom_width_mobile": 100,
-                "height": "fit",
-                "custom_height": 100,
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-2",
-                "background_media": "none",
-                "video_position": "cover",
-                "background_image_position": "cover",
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 40,
-                "padding-block-end": 40,
-                "padding-inline-start": 28,
-                "padding-inline-end": 28
-              },
               "blocks": {
                 "s3_num": {
                   "type": "text",
@@ -1786,46 +1436,32 @@
                   }
                 }
               },
-              "block_order": [
-                "s3_num",
-                "s3_title",
-                "s3_desc"
-              ]
+              "block_order": ["s3_num", "s3_title", "s3_desc"],
+              "settings": {
+                "content_direction": "column", "vertical_on_mobile": true,
+                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
+                "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12, "width": "fill", "custom_width": 100, "width_mobile": "fill", "custom_width_mobile": 100,
+                "height": "fill", "custom_height": 100,
+                "inherit_color_scheme": false, "color_scheme": "scheme-2",
+                "background_media": "none", "video_position": "cover", "background_image_position": "cover",
+                "border": "none", "border_width": 1, "border_opacity": 100, "border_radius": 16,
+                "padding-block-start": 40, "padding-block-end": 40, "padding-inline-start": 28, "padding-inline-end": 28
+              }
             }
-          },
-          "block_order": [
-            "hiw_step_1",
-            "hiw_step_2",
-            "hiw_step_3"
-          ]
-        }
       },
-      "block_order": [
-        "hiw_label",
-        "hiw_title",
-        "hiw_steps_row"
-      ],
+      "block_order": ["hiw_label", "hiw_title", "hiw_step_1", "hiw_step_2", "hiw_step_3"],
       "name": "How It Works",
       "settings": {
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "flex-start",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
+        "content_direction": "column", "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start", "vertical_alignment": "flex-start",
+        "align_baseline": false, "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "flex-start",
-        "gap": 0,
-        "section_width": "page-width",
-        "section_height": "fit",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-3",
-        "background_media": "none",
-        "toggle_overlay": false,
-        "overlay_color": "#00000026",
-        "overlay_style": "solid",
-        "gradient_direction": "to bottom",
-        "padding-block-start": 80,
-        "padding-block-end": 80
+        "gap": 0, "section_width": "page-width", "section_height": "fit", "section_height_custom": 50,
+        "color_scheme": "scheme-3", "background_media": "none", "toggle_overlay": false,
+        "overlay_color": "#00000026", "overlay_style": "solid", "gradient_direction": "to bottom",
+        "padding-block-start": 80, "padding-block-end": 80
       }
     },
     "carousel_reviews": {
