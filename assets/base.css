@@ -3852,9 +3852,40 @@ fly-to-cart.fly-to-cart--sticky {
   width: 100%;
 }
 
-/* Explicitly center text inside column-direction group cards with center alignment */
-.group-block-content.layout-panel-flex--column[style*='--horizontal-alignment: center'] .text-block > * {
-  text-align: center;
+/* =====================================================
+   How It Works + Benefits — direct section-ID overrides
+   ===================================================== */
+
+/* Section column container: stretch all children to full width */
+#shopify-section-section_how_it_works .section-content-wrapper,
+#shopify-section-section_benefits .section-content-wrapper {
+  align-items: stretch !important;
+}
+
+/* Wrapper group block (card row): always full width */
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block,
+#shopify-section-section_benefits .section-content-wrapper > .group-block {
+  width: 100% !important;
+}
+
+/* Each card in the row: equal width, full height */
+#shopify-section-section_how_it_works .group-block-content.layout-panel-flex--row > .group-block,
+#shopify-section-section_benefits .group-block-content.layout-panel-flex--row > .group-block {
+  flex: 1 !important;
+  min-width: 0 !important;
+}
+
+/* Card inner content: centered column */
+#shopify-section-section_how_it_works .group-block-content.layout-panel-flex--column,
+#shopify-section-section_benefits .group-block-content.layout-panel-flex--column {
+  align-items: center !important;
+}
+
+/* All text in these two sections: centered */
+#shopify-section-section_how_it_works .text-block > *,
+#shopify-section-section_benefits .text-block > * {
+  text-align: center !important;
+  margin-inline: auto !important;
 }
 
 text-component {
