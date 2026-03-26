@@ -3853,39 +3853,94 @@ fly-to-cart.fly-to-cart--sticky {
 }
 
 /* =====================================================
-   How It Works + Benefits — direct section-ID overrides
+   How It Works + Benefits — definitive layout overrides
    ===================================================== */
 
-/* Section column container: stretch all children to full width */
+/* 1. Outer column container: full width, centered */
 #shopify-section-section_how_it_works .section-content-wrapper,
 #shopify-section-section_benefits .section-content-wrapper {
-  align-items: stretch !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-/* Wrapper group block (card row): always full width */
+/* 2. Section title/subtitle text blocks: full width */
+#shopify-section-section_how_it_works .section-content-wrapper > .text-block,
+#shopify-section-section_benefits .section-content-wrapper > .text-block {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+#shopify-section-section_how_it_works .section-content-wrapper > .text-block > *,
+#shopify-section-section_benefits .section-content-wrapper > .text-block > * {
+  text-align: center !important;
+}
+
+/* 3. Card row wrapper group block: full width */
 #shopify-section-section_how_it_works .section-content-wrapper > .group-block,
 #shopify-section-section_benefits .section-content-wrapper > .group-block {
   width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-/* Each card in the row: equal width, full height */
-#shopify-section-section_how_it_works .group-block-content.layout-panel-flex--row > .group-block,
-#shopify-section-section_benefits .group-block-content.layout-panel-flex--row > .group-block {
-  flex: 1 !important;
+/* 4. Card row flex container: row, wrapping, centered */
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content,
+#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: stretch !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* 5. Individual cards: equal flexible width, never overflow */
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block,
+#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block {
+  flex: 1 1 180px !important;
   min-width: 0 !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }
 
-/* Card inner content: centered column */
-#shopify-section-section_how_it_works .group-block-content.layout-panel-flex--column,
-#shopify-section-section_benefits .group-block-content.layout-panel-flex--column {
+/* 6. Card inner content: centered column */
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block > .group-block-content,
+#shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block > .group-block-content {
+  display: flex !important;
+  flex-direction: column !important;
   align-items: center !important;
+  width: 100% !important;
 }
 
-/* All text in these two sections: centered */
-#shopify-section-section_how_it_works .text-block > *,
-#shopify-section-section_benefits .text-block > * {
+/* 7. All text inside cards: centered */
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block .text-block,
+#shopify-section-section_benefits .section-content-wrapper > .group-block .text-block {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+#shopify-section-section_how_it_works .section-content-wrapper > .group-block .text-block > *,
+#shopify-section-section_benefits .section-content-wrapper > .group-block .text-block > * {
   text-align: center !important;
   margin-inline: auto !important;
+}
+
+/* 8. Mobile: stack cards in a single column */
+@media screen and (max-width: 749px) {
+  #shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content,
+  #shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content {
+    flex-direction: column !important;
+  }
+
+  #shopify-section-section_how_it_works .section-content-wrapper > .group-block > .group-block-content > .group-block,
+  #shopify-section-section_benefits .section-content-wrapper > .group-block > .group-block-content > .group-block {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+  }
 }
 
 text-component {
