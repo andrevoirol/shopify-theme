@@ -114,11 +114,10 @@
         "gradient_direction": "to top",
         "blurred_reflection": false,
         "reflection_opacity": 75,
-        "padding-block-start": 120,
+        "padding-block-start": 100,
         "padding-block-end": 80
       }
     },
-
     "marquee_trust_bar": {
       "type": "marquee",
       "blocks": {
@@ -289,11 +288,16 @@
         }
       },
       "block_order": [
-        "mq_text_1", "mq_icon_1",
-        "mq_text_2", "mq_icon_2",
-        "mq_text_3", "mq_icon_3",
-        "mq_text_4", "mq_icon_4",
-        "mq_text_5", "mq_icon_5"
+        "mq_text_1",
+        "mq_icon_1",
+        "mq_text_2",
+        "mq_icon_2",
+        "mq_text_3",
+        "mq_icon_3",
+        "mq_text_4",
+        "mq_icon_4",
+        "mq_text_5",
+        "mq_icon_5"
       ],
       "name": "Trust Bar",
       "settings": {
@@ -304,7 +308,6 @@
         "gap_between_elements": 40
       }
     },
-
     "section_featured_product": {
       "type": "featured-product-information",
       "blocks": {
@@ -551,7 +554,12 @@
                   "blocks": {
                     "trust_ship_icon": {
                       "type": "icon",
-                      "settings": { "icon": "truck", "width": 22, "link": "", "open_in_new_tab": false }
+                      "settings": {
+                        "icon": "truck",
+                        "width": 22,
+                        "link": "",
+                        "open_in_new_tab": false
+                      }
                     },
                     "trust_ship_text": {
                       "type": "text",
@@ -579,7 +587,10 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["trust_ship_icon", "trust_ship_text"]
+                  "block_order": [
+                    "trust_ship_icon",
+                    "trust_ship_text"
+                  ]
                 },
                 "trust_support": {
                   "type": "group",
@@ -619,7 +630,12 @@
                   "blocks": {
                     "trust_support_icon": {
                       "type": "icon",
-                      "settings": { "icon": "chat", "width": 22, "link": "", "open_in_new_tab": false }
+                      "settings": {
+                        "icon": "chat",
+                        "width": 22,
+                        "link": "",
+                        "open_in_new_tab": false
+                      }
                     },
                     "trust_support_text": {
                       "type": "text",
@@ -647,7 +663,10 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["trust_support_icon", "trust_support_text"]
+                  "block_order": [
+                    "trust_support_icon",
+                    "trust_support_text"
+                  ]
                 },
                 "trust_guarantee": {
                   "type": "group",
@@ -687,7 +706,12 @@
                   "blocks": {
                     "trust_guarantee_icon": {
                       "type": "icon",
-                      "settings": { "icon": "check_box", "width": 22, "link": "", "open_in_new_tab": false }
+                      "settings": {
+                        "icon": "check_box",
+                        "width": 22,
+                        "link": "",
+                        "open_in_new_tab": false
+                      }
                     },
                     "trust_guarantee_text": {
                       "type": "text",
@@ -715,10 +739,17 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["trust_guarantee_icon", "trust_guarantee_text"]
+                  "block_order": [
+                    "trust_guarantee_icon",
+                    "trust_guarantee_text"
+                  ]
                 }
               },
-              "block_order": ["trust_ship", "trust_support", "trust_guarantee"]
+              "block_order": [
+                "trust_ship",
+                "trust_support",
+                "trust_guarantee"
+              ]
             },
             "fp_secondary": {
               "type": "group",
@@ -808,7 +839,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["fp_sec_heading", "fp_sec_desc"]
+              "block_order": [
+                "fp_sec_heading",
+                "fp_sec_desc"
+              ]
             }
           },
           "block_order": [
@@ -834,7 +868,6 @@
         "padding-block-end": 60
       }
     },
-
     "section_benefits": {
       "type": "section",
       "blocks": {
@@ -890,228 +923,434 @@
         },
         "benefits_row": {
           "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 24,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 0,
+            "border_opacity": 0,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
           "blocks": {
             "benefit_group_1": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 12,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
               "blocks": {
                 "b1_icon": {
                   "type": "icon",
-                  "settings": { "icon": "heart", "width": 44, "link": "", "open_in_new_tab": false }
+                  "settings": {
+                    "icon": "heart",
+                    "width": 44,
+                    "link": "",
+                    "open_in_new_tab": false
+                  }
                 },
                 "b1_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Absorbs Every Impact</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h5", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h5",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 12,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "b1_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Triple-layer memory foam wraps around your baby's back. A tumble becomes a soft landing. Every single time.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["b1_icon", "b1_title", "b1_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 12,
-                "padding-block-start": 32, "padding-block-end": 32,
-                "padding-inline-start": 24, "padding-inline-end": 24
-              }
+              "block_order": [
+                "b1_icon",
+                "b1_title",
+                "b1_desc"
+              ]
             },
             "benefit_group_2": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 12,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
               "blocks": {
                 "b2_icon": {
                   "type": "icon",
-                  "settings": { "icon": "check_box", "width": 44, "link": "", "open_in_new_tab": false }
+                  "settings": {
+                    "icon": "check_box",
+                    "width": 44,
+                    "link": "",
+                    "open_in_new_tab": false
+                  }
                 },
                 "b2_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Certified Safe</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h5", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h5",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 12,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "b2_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Rigorously tested to international baby safety standards. When it comes to your baby, there's no guessing.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["b2_icon", "b2_title", "b2_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 12,
-                "padding-block-start": 32, "padding-block-end": 32,
-                "padding-inline-start": 24, "padding-inline-end": 24
-              }
+              "block_order": [
+                "b2_icon",
+                "b2_title",
+                "b2_desc"
+              ]
             },
             "benefit_group_3": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 12,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
               "blocks": {
                 "b3_icon": {
                   "type": "icon",
-                  "settings": { "icon": "washing", "width": 44, "link": "", "open_in_new_tab": false }
+                  "settings": {
+                    "icon": "washing",
+                    "width": 44,
+                    "link": "",
+                    "open_in_new_tab": false
+                  }
                 },
                 "b3_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Toss It in the Wash</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h5", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h5",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 12,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "b3_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>One gentle cycle and it comes out perfectly soft. No shrinking, no damage. Ready for whatever tomorrow brings.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["b3_icon", "b3_title", "b3_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 12,
-                "padding-block-start": 32, "padding-block-end": 32,
-                "padding-inline-start": 24, "padding-inline-end": 24
-              }
+              "block_order": [
+                "b3_icon",
+                "b3_title",
+                "b3_desc"
+              ]
             },
             "benefit_group_4": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 12,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 24,
+                "padding-inline-end": 24
+              },
               "blocks": {
                 "b4_icon": {
                   "type": "icon",
-                  "settings": { "icon": "truck", "width": 44, "link": "", "open_in_new_tab": false }
+                  "settings": {
+                    "icon": "truck",
+                    "width": 44,
+                    "link": "",
+                    "open_in_new_tab": false
+                  }
                 },
                 "b4_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Ships Free, Everywhere</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h5", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 12, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h5",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 12,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "b4_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Free worldwide shipping on every order. Because protecting your baby shouldn't come with a delivery fee.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["b4_icon", "b4_title", "b4_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 12,
-                "padding-block-start": 32, "padding-block-end": 32,
-                "padding-inline-start": 24, "padding-inline-end": 24
-              }
+              "block_order": [
+                "b4_icon",
+                "b4_title",
+                "b4_desc"
+              ]
             }
           },
-          "block_order": ["benefit_group_1", "benefit_group_2", "benefit_group_3", "benefit_group_4"],
-          "settings": {
-            "content_direction": "row", "vertical_on_mobile": true,
-            "horizontal_alignment": "space-between", "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 24, "width": "fill", "custom_width": 100,
-            "width_mobile": "fill", "custom_width_mobile": 100,
-            "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": true, "color_scheme": "",
-            "background_media": "none", "video_position": "cover",
-            "background_image_position": "cover", "border": "none",
-            "border_width": 0, "border_opacity": 0, "border_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 0,
-            "padding-inline-start": 0, "padding-inline-end": 0
-          }
+          "block_order": [
+            "benefit_group_1",
+            "benefit_group_2",
+            "benefit_group_3",
+            "benefit_group_4"
+          ]
         }
       },
-      "block_order": ["sec_title", "sec_subtitle", "benefits_row"],
+      "block_order": [
+        "sec_title",
+        "sec_subtitle",
+        "benefits_row"
+      ],
       "name": "Benefits",
       "settings": {
         "content_direction": "column",
@@ -1135,7 +1374,6 @@
         "padding-block-end": 72
       }
     },
-
     "section_how_it_works": {
       "type": "section",
       "blocks": {
@@ -1143,13 +1381,24 @@
           "type": "text",
           "settings": {
             "text": "<p>Takes 30 Seconds</p>",
-            "width": "100%", "max_width": "normal", "alignment": "center",
-            "type_preset": "h6", "font": "var(--font-body--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "uppercase", "wrap": "pretty", "color": "var(--color-primary)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 4,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "var(--color-primary)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 4,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -1157,223 +1406,405 @@
           "type": "text",
           "settings": {
             "text": "<h2>On in the Morning. Off at Bedtime. That Easy.</h2>",
-            "width": "100%", "max_width": "normal", "alignment": "center",
-            "type_preset": "h2", "font": "var(--font-heading--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 32,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-heading--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 32,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
         "hiw_steps_row": {
           "type": "group",
+          "settings": {
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "space-between",
+            "vertical_alignment": "flex-start",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 32,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "scheme-3",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 0,
+            "border_opacity": 0,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
           "blocks": {
             "hiw_step_1": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 16,
+                "padding-block-start": 40,
+                "padding-block-end": 40,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
               "blocks": {
                 "s1_num": {
                   "type": "text",
                   "settings": {
                     "text": "<p>01</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h2", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h2",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s1_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Slip It On</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h4", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h4",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s1_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Adjustable straps fit any baby from 6 months to 3 years. Two clicks and it's snug. That's it.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["s1_num", "s1_title", "s1_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 16,
-                "padding-block-start": 40, "padding-block-end": 40,
-                "padding-inline-start": 28, "padding-inline-end": 28
-              }
+              "block_order": [
+                "s1_num",
+                "s1_title",
+                "s1_desc"
+              ]
             },
             "hiw_step_2": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 16,
+                "padding-block-start": 40,
+                "padding-block-end": 40,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
               "blocks": {
                 "s2_num": {
                   "type": "text",
                   "settings": {
                     "text": "<p>02</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h2", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h2",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s2_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Watch Them Explore</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h4", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h4",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s2_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Your baby crawls, pulls up, takes those wobbly first steps. You watch. You smile. You don't flinch.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["s2_num", "s2_title", "s2_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 16,
-                "padding-block-start": 40, "padding-block-end": 40,
-                "padding-inline-start": 28, "padding-inline-end": 28
-              }
+              "block_order": [
+                "s2_num",
+                "s2_title",
+                "s2_desc"
+              ]
             },
             "hiw_step_3": {
               "type": "group",
+              "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "center",
+                "vertical_alignment": "flex-start",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "flex-start",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-2",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 16,
+                "padding-block-start": 40,
+                "padding-block-end": 40,
+                "padding-inline-start": 28,
+                "padding-inline-end": 28
+              },
               "blocks": {
                 "s3_num": {
                   "type": "text",
                   "settings": {
                     "text": "<p>03</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h2", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h2",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s3_title": {
                   "type": "text",
                   "settings": {
                     "text": "<p>You Breathe Again</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "h4", "font": "var(--font-heading--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "h4",
+                    "font": "var(--font-heading--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground-heading)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 },
                 "s3_desc": {
                   "type": "text",
                   "settings": {
                     "text": "<p>Every fall is caught. Every tumble lands soft. That knot in your chest finally starts to loosen.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "center",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 8, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "center",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 8,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
                   }
                 }
               },
-              "block_order": ["s3_num", "s3_title", "s3_desc"],
-              "settings": {
-                "content_direction": "column", "vertical_on_mobile": true,
-                "horizontal_alignment": "center", "vertical_alignment": "flex-start",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "center",
-                "vertical_alignment_flex_direction_column": "flex-start",
-                "gap": 12, "width": "fill", "custom_width": 100,
-                "width_mobile": "fill", "custom_width_mobile": 100,
-                "height": "fit", "custom_height": 100,
-                "inherit_color_scheme": false, "color_scheme": "scheme-2",
-                "background_media": "none", "video_position": "cover",
-                "background_image_position": "cover", "border": "none",
-                "border_width": 1, "border_opacity": 100, "border_radius": 16,
-                "padding-block-start": 40, "padding-block-end": 40,
-                "padding-inline-start": 28, "padding-inline-end": 28
-              }
+              "block_order": [
+                "s3_num",
+                "s3_title",
+                "s3_desc"
+              ]
             }
           },
-          "block_order": ["hiw_step_1", "hiw_step_2", "hiw_step_3"],
-          "settings": {
-            "content_direction": "row", "vertical_on_mobile": true,
-            "horizontal_alignment": "space-between", "vertical_alignment": "flex-start",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "flex-start",
-            "gap": 32, "width": "fill", "custom_width": 100,
-            "width_mobile": "fill", "custom_width_mobile": 100,
-            "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": true, "color_scheme": "scheme-3",
-            "background_media": "none", "video_position": "cover",
-            "background_image_position": "cover", "border": "none",
-            "border_width": 0, "border_opacity": 0, "border_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 0,
-            "padding-inline-start": 0, "padding-inline-end": 0
-          }
+          "block_order": [
+            "hiw_step_1",
+            "hiw_step_2",
+            "hiw_step_3"
+          ]
         }
       },
-      "block_order": ["hiw_label", "hiw_title", "hiw_steps_row"],
+      "block_order": [
+        "hiw_label",
+        "hiw_title",
+        "hiw_steps_row"
+      ],
       "name": "How It Works",
       "settings": {
         "content_direction": "column",
@@ -1397,7 +1828,6 @@
         "padding-block-end": 80
       }
     },
-
     "carousel_reviews": {
       "type": "carousel",
       "blocks": {
@@ -1405,18 +1835,58 @@
           "type": "group",
           "name": "t:names.header",
           "static": true,
+          "settings": {
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 4,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
           "blocks": {
             "reviews_label": {
               "type": "text",
               "settings": {
                 "text": "<p>What Moms Are Saying</p>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h6", "font": "var(--font-body--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "uppercase", "wrap": "pretty", "color": "var(--color-primary)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 0, "padding-block-end": 4,
-                "padding-inline-start": 0, "padding-inline-end": 0
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "color": "var(--color-primary)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 4,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {}
             },
@@ -1424,240 +1894,37 @@
               "type": "text",
               "settings": {
                 "text": "<h2>10,000+ Families Sleep Better Tonight</h2>",
-                "width": "100%", "max_width": "normal", "alignment": "center",
-                "type_preset": "h2", "font": "var(--font-heading--family)",
-                "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-                "background": false, "background_color": "#00000026", "corner_radius": 0,
-                "padding-block-start": 0, "padding-block-end": 0,
-                "padding-inline-start": 0, "padding-inline-end": 0
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "h2",
+                "font": "var(--font-heading--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground-heading)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
               },
               "blocks": {}
             }
           },
-          "block_order": ["reviews_label", "reviews_title"],
-          "settings": {
-            "content_direction": "column", "vertical_on_mobile": true,
-            "horizontal_alignment": "center", "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 4, "width": "fill", "custom_width": 100,
-            "width_mobile": "fill", "custom_width_mobile": 100,
-            "height": "fit", "custom_height": 100,
-            "inherit_color_scheme": true, "color_scheme": "",
-            "background_media": "none", "video_position": "cover",
-            "background_image_position": "cover", "border": "none",
-            "border_width": 1, "border_opacity": 100, "border_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 0,
-            "padding-inline-start": 0, "padding-inline-end": 0
-          }
+          "block_order": [
+            "reviews_label",
+            "reviews_title"
+          ]
         },
         "static-carousel-content": {
           "type": "_carousel-content",
           "name": "Carousel",
           "static": true,
-          "blocks": {
-            "review_card_1": {
-              "type": "_card",
-              "blocks": {
-                "r1_stars": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>★★★★★</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h5", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 8,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r1_quote": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>\"Liam fell backward five times in one afternoon. Not one cry. I stood there with my mouth open. This thing actually works.\"</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 16,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r1_name": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><strong>Sarah M.</strong> — Mom of 2, Verified Buyer</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h6", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["r1_stars", "r1_quote", "r1_name"],
-              "settings": {
-                "aspect_ratio": "auto",
-                "background_media": "none",
-                "toggle_overlay": false,
-                "overlay_color": "#00000040",
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-1",
-                "link": "",
-                "open_in_new_tab": false,
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 32,
-                "padding-inline-end": 32
-              }
-            },
-            "review_card_2": {
-              "type": "_card",
-              "blocks": {
-                "r2_stars": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>★★★★★</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h5", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 8,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r2_quote": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>\"I'd been hovering behind Zoe for weeks, terrified to look away. The day I put this on her, I sat down on the couch for the first time. I actually sat down.\"</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 16,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r2_name": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><strong>Jessica T.</strong> — First-Time Mom, Verified Buyer</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h6", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["r2_stars", "r2_quote", "r2_name"],
-              "settings": {
-                "aspect_ratio": "auto",
-                "background_media": "none",
-                "toggle_overlay": false,
-                "overlay_color": "#00000040",
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-1",
-                "link": "",
-                "open_in_new_tab": false,
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 32,
-                "padding-inline-end": 32
-              }
-            },
-            "review_card_3": {
-              "type": "_card",
-              "blocks": {
-                "r3_stars": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>★★★★★</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h5", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-primary)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 8,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r3_quote": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>\"We bought three. Home, grandma's, daycare. The quality held up through months of washing. My twins are obsessed with putting it on themselves now.\"</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 16,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "r3_name": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p><strong>Michael & Ana K.</strong> — Parents of Twins, Verified Buyers</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "h6", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["r3_stars", "r3_quote", "r3_name"],
-              "settings": {
-                "aspect_ratio": "auto",
-                "background_media": "none",
-                "toggle_overlay": false,
-                "overlay_color": "#00000040",
-                "inherit_color_scheme": false,
-                "color_scheme": "scheme-1",
-                "link": "",
-                "open_in_new_tab": false,
-                "border": "none",
-                "border_width": 1,
-                "border_opacity": 100,
-                "border_radius": 16,
-                "padding-block-start": 32,
-                "padding-block-end": 32,
-                "padding-inline-start": 32,
-                "padding-inline-end": 32
-              }
-            }
-          },
-          "block_order": ["review_card_1", "review_card_2", "review_card_3"],
           "settings": {
             "inherit_color_scheme": true,
             "color_scheme": "",
@@ -1671,10 +1938,313 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {
+            "review_card_1": {
+              "type": "_card",
+              "settings": {
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-1",
+                "background_media": "none",
+                "aspect_ratio": "auto",
+                "toggle_overlay": false,
+                "overlay_color": "#00000040",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 32,
+                "padding-inline-end": 32
+              },
+              "blocks": {
+                "r1_stars": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>★★★★★</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 8,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r1_quote": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>\"Liam fell backward five times in one afternoon. Not one cry. I stood there with my mouth open. This thing actually works.\"</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 16,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r1_name": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Sarah M.</strong> — Mom of 2, Verified Buyer</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h6",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "r1_stars",
+                "r1_quote",
+                "r1_name"
+              ]
+            },
+            "review_card_2": {
+              "type": "_card",
+              "settings": {
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-1",
+                "background_media": "none",
+                "aspect_ratio": "auto",
+                "toggle_overlay": false,
+                "overlay_color": "#00000040",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 32,
+                "padding-inline-end": 32
+              },
+              "blocks": {
+                "r2_stars": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>★★★★★</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 8,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r2_quote": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>\"I'd been hovering behind Zoe for weeks, terrified to look away. The day I put this on her, I sat down on the couch for the first time. I actually sat down.\"</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 16,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r2_name": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Jessica T.</strong> — First-Time Mom, Verified Buyer</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h6",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "r2_stars",
+                "r2_quote",
+                "r2_name"
+              ]
+            },
+            "review_card_3": {
+              "type": "_card",
+              "settings": {
+                "inherit_color_scheme": false,
+                "color_scheme": "scheme-1",
+                "background_media": "none",
+                "aspect_ratio": "auto",
+                "toggle_overlay": false,
+                "overlay_color": "#00000040",
+                "link": "",
+                "open_in_new_tab": false,
+                "padding-block-start": 32,
+                "padding-block-end": 32,
+                "padding-inline-start": 32,
+                "padding-inline-end": 32
+              },
+              "blocks": {
+                "r3_stars": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>★★★★★</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h5",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-primary)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 8,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r3_quote": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>\"We bought three. Home, grandma's, daycare. The quality held up through months of washing. My twins are obsessed with putting it on themselves now.\"</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 16,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "r3_name": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p><strong>Michael & Ana K.</strong> — Parents of Twins, Verified Buyers</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h6",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "r3_stars",
+                "r3_quote",
+                "r3_name"
+              ]
+            }
+          },
+          "block_order": [
+            "review_card_1",
+            "review_card_2",
+            "review_card_3"
+          ]
         }
       },
-      "block_order": ["static-header", "static-carousel-content"],
       "name": "Customer Reviews",
       "settings": {
         "columns": 3,
@@ -1688,7 +2258,6 @@
         "padding-block-end": 80
       }
     },
-
     "product_list_fa6P9H": {
       "type": "product-list",
       "blocks": {
@@ -1883,7 +2452,6 @@
         "padding-block-end": 48
       }
     },
-
     "section_faq": {
       "type": "section",
       "blocks": {
@@ -1891,13 +2459,24 @@
           "type": "text",
           "settings": {
             "text": "<p>You Have Questions</p>",
-            "width": "100%", "max_width": "normal", "alignment": "center",
-            "type_preset": "h6", "font": "var(--font-body--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "uppercase", "wrap": "pretty", "color": "var(--color-primary)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 4,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "var(--color-primary)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 4,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -1905,151 +2484,29 @@
           "type": "text",
           "settings": {
             "text": "<h2>We Have Honest Answers</h2>",
-            "width": "100%", "max_width": "normal", "alignment": "center",
-            "type_preset": "h2", "font": "var(--font-heading--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 0, "padding-block-end": 16,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-heading--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
         "faq_accordion": {
           "type": "accordion",
-          "blocks": {
-            "faq_q1": {
-              "type": "_accordion-row",
-              "blocks": {
-                "faq_a1": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>BabyShield fits babies aged 6 months to 3 years. The adjustable straps grow with your baby through crawling, standing, and those first wobbly steps.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["faq_a1"],
-              "settings": {
-                "heading": "What age does BabyShield fit?",
-                "open_by_default": true,
-                "icon": "none",
-                "width": 24
-              }
-            },
-            "faq_q2": {
-              "type": "_accordion-row",
-              "blocks": {
-                "faq_a2": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>BabyShield is designed for active play and learning to walk. We recommend removing it at sleep time so your baby is comfortable and unrestricted. It takes about two seconds to take off.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["faq_a2"],
-              "settings": {
-                "heading": "Can my baby sleep with it on?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 24
-              }
-            },
-            "faq_q3": {
-              "type": "_accordion-row",
-              "blocks": {
-                "faq_a3": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Unzip the cover, pop it in the washing machine on a gentle cycle at 30°C, and air-dry the foam insert. It comes out just as soft every time. No special care needed.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["faq_a3"],
-              "settings": {
-                "heading": "How do I clean it?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 24
-              }
-            },
-            "faq_q4": {
-              "type": "_accordion-row",
-              "blocks": {
-                "faq_a4": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>We ship within 24 hours of your order. Standard delivery arrives in 5 to 10 business days. Express options are available at checkout if you want it sooner.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["faq_a4"],
-              "settings": {
-                "heading": "When will it arrive?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 24
-              }
-            },
-            "faq_q5": {
-              "type": "_accordion-row",
-              "blocks": {
-                "faq_a5": {
-                  "type": "text",
-                  "settings": {
-                    "text": "<p>Then we refund you. All of it. No forms, no return label stress, no questions. You have 30 days to try it with your baby. If it's not right, just message us.</p>",
-                    "width": "100%", "max_width": "normal", "alignment": "left",
-                    "type_preset": "paragraph", "font": "var(--font-body--family)",
-                    "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-                    "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-                    "background": false, "background_color": "#00000026", "corner_radius": 0,
-                    "padding-block-start": 0, "padding-block-end": 0,
-                    "padding-inline-start": 0, "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": ["faq_a5"],
-              "settings": {
-                "heading": "What if it doesn't work for us?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 24
-              }
-            }
-          },
-          "block_order": ["faq_q1", "faq_q2", "faq_q3", "faq_q4", "faq_q5"],
           "settings": {
             "icon": "chevron",
             "dividers": true,
@@ -2064,10 +2521,218 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
-          }
+          },
+          "blocks": {
+            "faq_q1": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What age does BabyShield fit?",
+                "open_by_default": true,
+                "icon": "none",
+                "width": 24
+              },
+              "blocks": {
+                "faq_a1": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>BabyShield fits babies aged 6 months to 3 years. The adjustable straps grow with your baby through crawling, standing, and those first wobbly steps.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_a1"
+              ]
+            },
+            "faq_q2": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "Can my baby sleep with it on?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 24
+              },
+              "blocks": {
+                "faq_a2": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>BabyShield is designed for active play and learning to walk. We recommend removing it at sleep time so your baby is comfortable and unrestricted. It takes about two seconds to take off.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_a2"
+              ]
+            },
+            "faq_q3": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "How do I clean it?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 24
+              },
+              "blocks": {
+                "faq_a3": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Unzip the cover, pop it in the washing machine on a gentle cycle at 30°C, and air-dry the foam insert. It comes out just as soft every time. No special care needed.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_a3"
+              ]
+            },
+            "faq_q4": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "When will it arrive?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 24
+              },
+              "blocks": {
+                "faq_a4": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>We ship within 24 hours of your order. Standard delivery arrives in 5 to 10 business days. Express options are available at checkout if you want it sooner.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_a4"
+              ]
+            },
+            "faq_q5": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "What if it doesn't work for us?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 24
+              },
+              "blocks": {
+                "faq_a5": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Then we refund you. All of it. No forms, no return label stress, no questions. You have 30 days to try it with your baby. If it's not right, just message us.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "font": "var(--font-body--family)",
+                    "font_size": "",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "faq_a5"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_q1",
+            "faq_q2",
+            "faq_q3",
+            "faq_q4",
+            "faq_q5"
+          ]
         }
       },
-      "block_order": ["faq_label", "faq_title", "faq_accordion"],
+      "block_order": [
+        "faq_label",
+        "faq_title",
+        "faq_accordion"
+      ],
       "name": "FAQ",
       "settings": {
         "content_direction": "column",
@@ -2091,25 +2756,40 @@
         "padding-block-end": 80
       }
     },
-
     "section_guarantee": {
       "type": "section",
       "blocks": {
         "gtee_icon": {
           "type": "icon",
-          "settings": { "icon": "check_box", "width": 56, "link": "", "open_in_new_tab": false }
+          "settings": {
+            "icon": "check_box",
+            "width": 56,
+            "link": "",
+            "open_in_new_tab": false
+          }
         },
         "gtee_title": {
           "type": "text",
           "settings": {
             "text": "<h2>Try It. Love It. Or We Pay You Back.</h2>",
-            "width": "100%", "max_width": "normal", "alignment": "center",
-            "type_preset": "h2", "font": "var(--font-heading--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "none", "wrap": "pretty", "color": "var(--color-foreground-heading)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 16, "padding-block-end": 0,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-heading--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground-heading)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 16,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -2117,13 +2797,24 @@
           "type": "text",
           "settings": {
             "text": "<p>We believe in BabyShield completely. So try it for 30 days. Put it on your baby. See what happens at playtime. If for any reason it's not for you, message us and we'll refund every penny. No conditions. No lectures. No hassle.</p>",
-            "width": "100%", "max_width": "medium", "alignment": "center",
-            "type_preset": "paragraph", "font": "var(--font-body--family)",
-            "font_size": "", "line_height": "normal", "letter_spacing": "normal",
-            "case": "none", "wrap": "pretty", "color": "var(--color-foreground)",
-            "background": false, "background_color": "#00000026", "corner_radius": 0,
-            "padding-block-start": 16, "padding-block-end": 0,
-            "padding-inline-start": 0, "padding-inline-end": 0
+            "width": "100%",
+            "max_width": "medium",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 16,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {}
         },
@@ -2142,7 +2833,12 @@
           "blocks": {}
         }
       },
-      "block_order": ["gtee_icon", "gtee_title", "gtee_text", "gtee_button"],
+      "block_order": [
+        "gtee_icon",
+        "gtee_title",
+        "gtee_text",
+        "gtee_button"
+      ],
       "name": "Guarantee",
       "settings": {
         "content_direction": "column",
