@@ -16,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Elle a vacillé. Votre cœur s'est arrêté.</p>",
+            "text": "<p>Il apprend à marcher. Toi, t'as oublié de souffler.</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
