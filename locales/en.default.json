@@ -130,8 +130,8 @@
     },
     "email_signup": {
       "label": "Email",
-      "placeholder": "Email address",
-      "success": "Thanks for subscribing!"
+      "placeholder": "Ton adresse e-mail",
+      "success": "Merci pour ton inscription !"
     },
     "filter": "Filter",
     "load_video": "Load video: {{ description }}",
@@ -235,7 +235,7 @@
     "product_information": "Product information",
     "product_subtotal": "Product subtotal",
     "product_total": "Product total",
-    "product_badge_sold_out": "Sold out",
+    "product_badge_sold_out": "Épuisé",
     "product_badge_sale": "Sale",
     "product_card_placeholder": "Product title",
     "placeholder_image": "Placeholder image",
@@ -291,7 +291,7 @@
     "taxes_included_shipping_at_checkout_with_policy_without_discounts_html": "Taxes included. Shipping is calculated at checkout.",
     "taxes_included_shipping_at_checkout_without_policy": "Taxes included. Discounts and shipping calculated at checkout.",
     "taxes_included_shipping_at_checkout_without_policy_without_discounts": "Taxes included. Shipping is calculated at checkout.",
-    "unavailable": "Unavailable",
+    "unavailable": "Indisponible",
     "use_fewer_filters_html": "Try using fewer filters, or <a class=\"{{ class }}\" href=\"{{ link }}\">clear all filters</a>.",
     // Link or button to expand additional information
     "view_more_details": "View more details",
@@ -352,13 +352,13 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Add to cart",
-      "adding_to_cart": "Adding...",
-      "added_to_cart": "Added to cart",
-      "add_to_cart_error": "Error adding to cart",
-      "quantity_error_max": "This item has a maximum of {{ maximum }}",
+      "add_to_cart": "Ajouter au panier",
+      "adding_to_cart": "Ajout en cours...",
+      "added_to_cart": "Ajouté au panier",
+      "add_to_cart_error": "Erreur lors de l'ajout au panier",
+      "quantity_error_max": "Ce produit a un maximum de {{ maximum }}",
       "sold_out": "Épuisé",
-      "unavailable": "Unavailable",
+      "unavailable": "Indisponible",
       "quantity": "Quantité",
       "quantity_increments": "Increments of {{ increment }}",
       "quantity_minimum": "Minimum of {{ minimum }}",
